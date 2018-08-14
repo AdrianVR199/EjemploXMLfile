@@ -6,9 +6,21 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ejemploxmlfile.FXMLDocumentController">
+<AnchorPane id="AnchorPane" prefHeight="331.0" prefWidth="391.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ejemploxmlfile.FXMLDocumentController">
     <children>
-        <Button layoutX="126" layoutY="90" text="Click Me!" onAction="#handleButtonAction" fx:id="button" />
-        <Label layoutX="126" layoutY="120" minHeight="16" minWidth="69" fx:id="label" />
+        <Button fx:id="button" layoutX="40.0" layoutY="282.0" onAction="#handleButtonAction" prefHeight="25.0" prefWidth="139.0" text="Agregar Estudiante" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TextField fx:id="Field" layoutX="228.0" layoutY="63.0" />
+      <Label fx:id="label" layoutX="105.0" layoutY="32.0" prefHeight="17.0" prefWidth="139.0" text="Agregar Estudiante" />
+      <TextField fx:id="Field1" layoutX="228.0" layoutY="104.0" />
+      <TextField fx:id="Field2" layoutX="228.0" layoutY="141.0" />
+      <TextField fx:id="Field3" layoutX="228.0" layoutY="179.0" />
+      <Label fx:id="label1" layoutX="22.0" layoutY="67.0" prefHeight="17.0" prefWidth="139.0" text="Nombre" />
+      <Label fx:id="label2" layoutX="22.0" layoutY="108.0" prefHeight="17.0" prefWidth="139.0" text="Telefono" />
+      <Label fx:id="label3" layoutX="22.0" layoutY="145.0" prefHeight="17.0" prefWidth="139.0" text="Correo" />
+      <Label fx:id="label4" layoutX="22.0" layoutY="183.0" prefHeight="17.0" prefWidth="139.0" text="Codigo" />
+      <Label fx:id="label5" layoutX="22.0" layoutY="221.0" prefHeight="17.0" prefWidth="139.0" text="Carrera" />
+      <TextField fx:id="Field4" layoutX="228.0" layoutY="217.0" />
+      <Button fx:id="Button2" layoutX="216.0" layoutY="282.0" mnemonicParsing="false" onAction="#guardarXML" text="Guardar Archivo XML" />
     </children>
 </AnchorPane>
